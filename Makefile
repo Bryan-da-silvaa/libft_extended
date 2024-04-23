@@ -2,10 +2,12 @@ NAME=libft_extended.a
 CC=cc
 CFLAGS= -Wall -Wextra -Werror
 SRCS := ft_strlen_libft.c \
-		strrev.c \
-		len_occurence.c
-		average_tab.c \
-		sum_tab.c
+		ft_strrev.c \
+		ft_len_occurence.c
+		ft_average_tab.c \
+		ft_sum_tab.c \
+		ft_putchar.c \
+		ft_putnbr_base.c
 
 OBJ= $(SRCS:.c=.o)
 

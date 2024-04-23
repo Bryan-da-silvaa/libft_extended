@@ -1,6 +1,6 @@
 #include "libft_extended.h"
 
-size_t     len_occurence(char *str, char occurence)
+size_t     ft_len_occurence(char *str, char occurence)
 {
     size_t     i;
 

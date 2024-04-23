@@ -1,6 +1,6 @@
 #include "libft_extended.h"
 
-size_t     sum_tab(int *tab, size_t size)
+size_t     ft_sum_tab(int *tab, size_t size)
 {
     size_t  i;
     size_t  result;
