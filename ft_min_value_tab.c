@@ -1,10 +1,21 @@
 #include "libft_extended.h"
 
-#include <stdio.h>
-
-int     main(void)
+int    ft_min_value_tab(int *tab, int size)
 {
-    int     tab[10] = {19, 68, 36, 256, 3087, 426, 498, 253, 374, 0};
+    int     max;
+    int     i;
 
-    printf("max int tab : %d\n", ft_min_value_tab(tab, 10));
+    if (tab)
+    {
+        max = 0;
+        i = 0;
+        while (i < size)
+        {
+            if (max > tab[i] || i == 0)
+                max = tab[i];
+            i++;
+        }
+        return (max);
+    }
+    return (0);
 }
