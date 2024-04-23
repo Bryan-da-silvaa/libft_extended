@@ -5,7 +5,7 @@ size_t     len_occurence(char *str, char occurence)
     size_t     i;
 
     i = 0;
-    if (str && occurence)
+    if (str)
     {
         while (*str)
         {
