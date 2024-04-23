@@ -11,6 +11,7 @@ typedef struct         s_list
 
 size_t      len_occurence(char *str, char occurence);
 size_t      average_tab(int *tab, size_t size);
+size_t      sum_tab(int *tab, size_t size);
 size_t      ft_strlen_libft(const char *s);
 char        *strrev(char *s);
 

@@ -4,7 +4,8 @@ CFLAGS= -Wall -Wextra -Werror
 SRCS := ft_strlen_libft.c \
 		strrev.c \
 		len_occurence.c
-		average_tab.c
+		average_tab.c \
+		sum_tab.c
 
 OBJ= $(SRCS:.c=.o)
 
