@@ -2,7 +2,8 @@ NAME=libft_extended.a
 CC=cc
 CFLAGS= -Wall -Wextra -Werror
 SRCS := ft_strlen_libft.c \
-		strrev.c
+		strrev.c \
+		len_occurence.c
 
 OBJ= $(SRCS:.c=.o)
 

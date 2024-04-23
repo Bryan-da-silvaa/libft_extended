@@ -9,6 +9,8 @@ typedef struct         s_list
     struct s_list      *next;
 }                      t_list;
 
-size_t  ft_strlen_libft(const char *s);
+size_t      ft_strlen_libft(const char *s);
+size_t      len_occurence(char *str, char occurence);
+char        *strrev(char *s);
 
 #endif
