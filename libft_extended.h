@@ -15,6 +15,7 @@ size_t      ft_len_occurence(char *str, char occurence);
 size_t      ft_average_tab(int *tab, size_t size);
 size_t      ft_sum_tab(int *tab, size_t size);
 size_t      ft_strlen_libft(const char *s);
+char        *ft_search_and_replace(char *str, char search, char replace);
 char        *ft_strrev(char *s);
 void        ft_putnbr_base(int nbr, char *base);
 void        ft_puttab(int *tab, size_t n);

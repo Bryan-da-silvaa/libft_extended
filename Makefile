@@ -14,7 +14,8 @@ SRCS := ft_strlen_libft.c \
 		ft_tabchr.c \
 		ft_tabcpy.c \
 		ft_putstr.c \
-		ft_puttab.c
+		ft_puttab.c \
+		ft_search_and_replace.c
 
 OBJ= $(SRCS:.c=.o)
 
