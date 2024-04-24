@@ -12,7 +12,9 @@ SRCS := ft_strlen_libft.c \
 		ft_min_value_tab.c \
 		ft_fusion_tab.c \
 		ft_tabchr.c \
-		ft_tabcpy.c
+		ft_tabcpy.c \
+		ft_putstr.c \
+		ft_puttab.c
 
 OBJ= $(SRCS:.c=.o)
 
