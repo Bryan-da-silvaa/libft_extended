@@ -11,7 +11,8 @@ SRCS := ft_strlen_libft.c \
 		ft_max_value_tab.c \
 		ft_min_value_tab.c \
 		ft_fusion_tab.c \
-		ft_tabchr.c
+		ft_tabchr.c \
+		ft_tabcpy.c
 
 OBJ= $(SRCS:.c=.o)
 

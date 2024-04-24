@@ -19,6 +19,7 @@ char        *ft_strrev(char *s);
 void        ft_putnbr_base(int nbr, char *base);
 void        ft_putchar(char c);
 int         ft_tabchr(int *tab, int chr, int len);
+int         *ft_tabcpy(int *tab, size_t len);
 int         ft_max_value_tab(int *tab, int size);
 int         ft_min_value_tab(int *tab, int size);
 
