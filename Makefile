@@ -9,7 +9,8 @@ SRCS := ft_strlen_libft.c \
 		ft_putchar.c \
 		ft_putnbr_base.c \
 		ft_max_value_tab.c \
-		ft_min_value_tab.c
+		ft_min_value_tab.c \
+		ft_fusion_tab.c
 
 OBJ= $(SRCS:.c=.o)
 

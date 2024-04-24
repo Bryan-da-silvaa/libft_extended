@@ -10,6 +10,7 @@ typedef struct         s_list
     struct s_list      *next;
 }                      t_list;
 
+size_t      *ft_fusion_tab(int *tab1, int *tab2, size_t tablen1, size_t tablen2);
 size_t      ft_len_occurence(char *str, char occurence);
 size_t      ft_average_tab(int *tab, size_t size);
 size_t      ft_sum_tab(int *tab, size_t size);
